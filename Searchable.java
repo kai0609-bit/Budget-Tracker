@@ -1,5 +1,5 @@
 import java.util.Optional;
 
-public interface Serchable {
+public interface Searchable {
     Optional<Transaction> findById(String id);
 }

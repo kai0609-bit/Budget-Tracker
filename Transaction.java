@@ -28,4 +28,11 @@ public class Transaction {
     public String getDescription() {return description; }
     public double getAmount() {return amount; }
     public String getCategory() {return category; }
+
+    @Override
+    public String toString() {
+        return String.format("Transaction{id='%s', description='%s', amount='%f', category='%s'}", 
+            id, description, amount, category);
+
+    }
 }
