@@ -1,3 +1,5 @@
+package com.budgettracker;
+
 import java.util.Map;
 import java.util.HashMap;
 import java.util.List;
@@ -5,9 +7,17 @@ import java.util.Optional;
 import java.util.stream.Collectors;
 
 public class BudgetManager implements Searchable{
-    static int totalTransactions = 0;
+    private static int totalTransactions = 0;
     
     Map<String, Transaction> transactions = new HashMap<>();
+
+    public static int getTotalTransactions() {
+        return totalTransactions;
+    }
+
+    public static void resetTotalTransactions() {
+        totalTransactions = 0;
+    }
 
     void addTransaction(Transaction transaction) {
         transactions.put(transaction.getId(), transaction);
@@ -34,7 +44,7 @@ public class BudgetManager implements Searchable{
         
         List<Transaction> expenses = transactions.values().stream()
             .filter(t -> t.getAmount() < 0)
-            .collect(Collectors.toList());
+            .toList();
 
         System.out.println("Total number of transactions: " + totalTransactions);
         System.out.println("Total income: " + totalAmount);

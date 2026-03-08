@@ -1,3 +1,5 @@
+package com.budgettracker;
+
 public class Transaction {
     // Properties
     private String id;
