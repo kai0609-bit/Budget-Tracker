@@ -6,7 +6,7 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class TransactionTest {
 
-    // Test1: Does Class Transaction work properly?
+    // Test1: Valid Transaction should be created successfully
     @Test
     void testValidTransaction() {
         Transaction t = new Transaction("T1", "Salary", 2500.0, "salary");
@@ -16,7 +16,7 @@ public class TransactionTest {
         assertEquals("salary", t.getCategory());
     }
 
-    // Test2: When amount = 0, is exception occur properly?
+    // Test2: Zero amount should throw IllegalArgumentException
     @Test
     void testZeroAmountThrowsException() {
         assertThrows(IllegalArgumentException.class, () -> {
@@ -24,7 +24,7 @@ public class TransactionTest {
         });
     }
 
-    // Test3: if id = null, is exception occur properly?
+    // Test3: Blank ID should throw IllegalArgumentException
     @Test
     void testBLankIdThrowsException() {
         assertThrows(IllegalArgumentException.class, () -> {
