@@ -27,8 +27,10 @@ public class BudgetManager implements Searchable{
         
         double totalExpenses = transactions.values().stream()
             .filter(t -> t.getAmount() < 0)
-            .mapToDouble(null)
+            .mapToDouble(Transaction::getAmount)
             .sum();
+
+        double balance = totalAmount + totalExpenses;
         
         List<Transaction> expenses = transactions.values().stream()
             .filter(t -> t.getAmount() < 0)
@@ -37,10 +39,10 @@ public class BudgetManager implements Searchable{
         System.out.println("Total number of transactions: " + totalTransactions);
         System.out.println("Total income: " + totalAmount);
         System.out.println("Total expenses: " + totalExpenses);
-        System.out.println("Balance: " + totalAmount + totalExpenses);
+        System.out.println("Balance: " + balance);
 
         expenses.forEach(t -> 
-            System.out.println("id: " + t.getId() + " / £" + t.getAmount())
+            System.out.println(t.getDescription() + ": " + t.getAmount() + " [" + t.getCategory() + "]")
         );
     }
 }
