@@ -33,5 +33,20 @@ A console-based budget tracking application built with Java.
 | `BudgetManager` | Manages transactions and statistics |
 | `Main` | Entry point of the application |
 
+## Running Tests
+
+1. Navigate to the project directory
+2. Run the following command:
+```
+   mvn test
+```
+3. Test results will be displayed in the terminal
+
+## Test Coverage
+| Class | Tests |
+|-------|-------|
+| `Transaction` | Valid creation, Zero amount, Blank ID |
+| `BudgetManager` | Add transaction, Find by ID, Find by ID not found |
+
 ## Author
 GitHub: @kai0609-bit
