@@ -4,14 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebd35337-8709-4bf6-894d-74679382a44f" name="Changes" comment="Update Main.java">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/budgettracker/BudgetManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/budgettracker/BudgetManager.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/budgettracker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/budgettracker/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/budgettracker/Transaction.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/budgettracker/Transaction.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/budgettracker/BudgetManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/budgettracker/BudgetManager.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/budgettracker/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/budgettracker/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/budgettracker/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/budgettracker/Transaction.class" afterDir="false" />
+    <list default="true" id="ebd35337-8709-4bf6-894d-74679382a44f" name="Changes" comment="Add monthlyReport system in Main and update other files for them.">
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -132,7 +126,7 @@
       <workItem from="1772994886687" duration="265000" />
       <workItem from="1773033114502" duration="900000" />
       <workItem from="1773044054292" duration="371000" />
-      <workItem from="1773044436132" duration="8524000" />
+      <workItem from="1773044436132" duration="8829000" />
     </task>
     <task id="LOCAL-00001" summary="Change ReadMe.md directory">
       <option name="closed" value="true" />
@@ -190,7 +184,15 @@
       <option name="project" value="LOCAL" />
       <updated>1773047670387</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Add monthlyReport system in Main and update other files for them.">
+      <option name="closed" value="true" />
+      <created>1773072094476</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1773072094476</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -203,6 +205,7 @@
     <MESSAGE value="Add InteractiveUI.java." />
     <MESSAGE value="Add printAllTransaction() to BudgetManager.java" />
     <MESSAGE value="Update Main.java" />
-    <option name="LAST_COMMIT_MESSAGE" value="Update Main.java" />
+    <MESSAGE value="Add monthlyReport system in Main and update other files for them." />
+    <option name="LAST_COMMIT_MESSAGE" value="Add monthlyReport system in Main and update other files for them." />
   </component>
 </project>

@@ -8,22 +8,18 @@ A console-based budget tracking application built with Java.
 ## Features
 - Add income and expense transactions
 - Search transactions by ID
-- View financial statistics (total income, expenses, balance)
+- View all transactions
+- Monthly report with category breakdown
+- Interactive command-line UI
 - Input validation with exception handling
 
 ## How to Run
+## How to Run
 1. Clone this repository
-```
    git clone https://github.com/kai0609-bit/Budget-Tracker
-```
-2. Compile
-```
-   javac *.java
-```
-3. Run
-```
-   java Main
-```
+2. Navigate to the project directory
+3. Run the application
+   mvn exec:java -Dexec.mainClass="com.budgettracker.Main"
 
 ## Class Structure
 | Class | Description |
@@ -31,6 +27,7 @@ A console-based budget tracking application built with Java.
 | `Searchable` | Interface for search functionality |
 | `Transaction` | Model class representing a transaction |
 | `BudgetManager` | Manages transactions and statistics |
+| `InteractiveUI` | Handles command-line menu display |
 | `Main` | Entry point of the application |
 
 ## Running Tests
@@ -46,7 +43,7 @@ A console-based budget tracking application built with Java.
 | Class | Tests |
 |-------|-------|
 | `Transaction` | Valid creation, Zero amount, Blank ID |
-| `BudgetManager` | Add transaction, Find by ID, Find by ID not found |
+| `BudgetManager` | Add transaction, Find by ID, Find by ID not found, Monthly report |
 
 ## Author
 GitHub: @kai0609-bit
