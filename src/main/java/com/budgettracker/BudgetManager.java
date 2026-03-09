@@ -55,4 +55,10 @@ public class BudgetManager implements Searchable{
             System.out.println(t.getDescription() + ": " + t.getAmount() + " [" + t.getCategory() + "]")
         );
     }
+
+    void printAllTransaction() {
+        transactions.values().forEach( t->
+            System.out.println(t.getId() + " | " + t.getDescription() + " | £" + t.getAmount() + " | " + t.getCategory())
+        );
+    }
 }
