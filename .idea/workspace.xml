@@ -4,7 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebd35337-8709-4bf6-894d-74679382a44f" name="Changes" comment="Add BudgetManagerTest." />
+    <list default="true" id="ebd35337-8709-4bf6-894d-74679382a44f" name="Changes" comment="Add BudgetManagerTest.">
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/budgettracker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/budgettracker/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/budgettracker/BudgetManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/budgettracker/BudgetManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/budgettracker/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/budgettracker/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/budgettracker/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/budgettracker/Transaction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/budgettracker/BudgetManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/budgettracker/BudgetManagerTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/budgettracker/TransactionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/budgettracker/TransactionTest.class" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -55,10 +64,13 @@
   "keyToString": {
     "Application.Main.executor": "Run",
     "JUnit.All in budget-tracker.executor": "Run",
+    "JUnit.BudgetManagerTest.executor": "Run",
+    "JUnit.TransactionTest.executor": "Run",
     "ModuleVcsDetector.initialDetectionPerformed": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252": "true",
     "RunOnceActivity.git.unshallow": "true",
+    "git-widget-placeholder": "main",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
     "last_directory_selection": "C:/Users/kaiow/OneDrive/ドキュメント/Own Programming Practice/JAVA/Budget Tracking/budget-tracker/src/main/java/com/budgettracker",
@@ -71,7 +83,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "MavenSettings",
+    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -118,6 +130,10 @@
       <workItem from="1772983285843" duration="42000" />
       <workItem from="1772983330474" duration="2342000" />
       <workItem from="1772990098160" duration="4447000" />
+      <workItem from="1772994886687" duration="265000" />
+      <workItem from="1773033114502" duration="900000" />
+      <workItem from="1773044054292" duration="371000" />
+      <workItem from="1773044436132" duration="812000" />
     </task>
     <task id="LOCAL-00001" summary="Change ReadMe.md directory">
       <option name="closed" value="true" />
@@ -143,7 +159,15 @@
       <option name="project" value="LOCAL" />
       <updated>1772994466593</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Add BudgetManagerTest.">
+      <option name="closed" value="true" />
+      <created>1772995007390</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1772995007390</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
