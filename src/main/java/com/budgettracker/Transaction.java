@@ -6,9 +6,10 @@ public class Transaction {
     private String description;
     private double amount;
     private String category;
+    private int month;
 
     // Constructors
-    Transaction (String id, String description, double amount, String category) {
+    Transaction (String id, String description, double amount, String category, int month) {
         if (amount == 0) {
             throw new IllegalArgumentException("Amount cannot be zero");
         }
@@ -23,18 +24,26 @@ public class Transaction {
         this.description = description;
         this.amount = amount;
         this.category = category;
+        this.month = month;
     }
+
+    // not using month
+    Transaction (String id, String description, double amount, String category) {
+        this(id, description, amount, category, 0);
+    }
+
 
     // Getters
     public String getId() {return id; }
     public String getDescription() {return description; }
     public double getAmount() {return amount; }
     public String getCategory() {return category; }
+    public int getMonth() {return month; }
 
     @Override
     public String toString() {
-        return String.format("Transaction{id='%s', description='%s', amount='%f', category='%s'}", 
-            id, description, amount, category);
+        return String.format("Transaction{id='%s', description='%s', amount='%f', category='%s', month='%d'}",
+            id, description, amount, category, month);
 
     }
 }
