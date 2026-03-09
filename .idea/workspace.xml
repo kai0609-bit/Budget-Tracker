@@ -4,15 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ebd35337-8709-4bf6-894d-74679382a44f" name="Changes" comment="Add BudgetManagerTest.">
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+    <list default="true" id="ebd35337-8709-4bf6-894d-74679382a44f" name="Changes" comment="Add printAllTransaction() to BudgetManager.java">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/budgettracker/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/budgettracker/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/budgettracker/BudgetManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/budgettracker/BudgetManager.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/budgettracker/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/budgettracker/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/budgettracker/Transaction.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/budgettracker/Transaction.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/budgettracker/BudgetManagerTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/budgettracker/BudgetManagerTest.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/budgettracker/TransactionTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/budgettracker/TransactionTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +78,7 @@
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "editor.preferences.inline.completion",
+    "settings.editor.selected.configurable": "editor.preferences.completion",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -133,7 +128,7 @@
       <workItem from="1772994886687" duration="265000" />
       <workItem from="1773033114502" duration="900000" />
       <workItem from="1773044054292" duration="371000" />
-      <workItem from="1773044436132" duration="812000" />
+      <workItem from="1773044436132" duration="3198000" />
     </task>
     <task id="LOCAL-00001" summary="Change ReadMe.md directory">
       <option name="closed" value="true" />
@@ -167,7 +162,23 @@
       <option name="project" value="LOCAL" />
       <updated>1772995007390</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Add InteractiveUI.java.">
+      <option name="closed" value="true" />
+      <created>1773045384034</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1773045384034</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Add printAllTransaction() to BudgetManager.java">
+      <option name="closed" value="true" />
+      <created>1773047392032</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1773047392032</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -177,6 +188,8 @@
     <MESSAGE value="Change ReadMe.md directory" />
     <MESSAGE value="Add getter method and reset method for totalTransactions. This is for testing." />
     <MESSAGE value="Add BudgetManagerTest." />
-    <option name="LAST_COMMIT_MESSAGE" value="Add BudgetManagerTest." />
+    <MESSAGE value="Add InteractiveUI.java." />
+    <MESSAGE value="Add printAllTransaction() to BudgetManager.java" />
+    <option name="LAST_COMMIT_MESSAGE" value="Add printAllTransaction() to BudgetManager.java" />
   </component>
 </project>
